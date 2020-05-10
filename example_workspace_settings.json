@@ -1,0 +1,19 @@
+//file name: settings.json
+//file directory: placed within a '.vscode' directory at the root of a project
+{
+    //editor guides
+    "editor.minimap.maxColumn": 79,
+    "editor.rulers": [79, 120],  //vertical guidelines
+    //set Python interpreter (usually a Python virtual environment)
+    "python.pythonPath": "../../envs/call-rest-api-webapp/bin/python",
+    //allow imports from the project root (not to be used in production)
+    "terminal.integrated.env.linux": {
+      "PYTHONPATH": "${workspaceFolder}",
+    },
+    "terminal.integrated.env.osx": {
+      "PYTHONPATH": "${workspaceFolder}",
+    },
+    "terminal.integrated.env.windows": {
+      "PYTHONPATH": "${workspaceFolder}",
+    }
+}
