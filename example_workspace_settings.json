@@ -8,5 +8,5 @@
 
 {
     //set Python interpreter (usually a Python virtual environment)
-    "python.pythonPath": "../../envs/call-rest-api-webapp/bin/python",
+    "python.pythonPath": "../../envs/<name-of-venv>/bin/python",
 }
