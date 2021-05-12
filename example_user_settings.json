@@ -1,0 +1,26 @@
+//file name: settings.json
+
+//directory for setting.json:
+//for single project: place within a '.vscode' directory at the root of project
+//for user in Windows: %APPDATA%\Code\User\settings.json
+//for user in MacOs: ~/Library/Application\ Support/Code/User/settings.json
+//for user in Linux: ~/.config/Code/User/settings.json
+
+{
+    //editor guides
+    "editor.minimap.maxColumn": 79,
+    "editor.rulers": [79, 120],  //vertical guidelines
+    //allow imports from the project root (not to be used in production)
+    "terminal.integrated.env.linux": {
+      "PYTHONPATH": "${workspaceFolder}",
+    },
+    "terminal.integrated.env.osx": {
+      "PYTHONPATH": "${workspaceFolder}",
+    },
+    "terminal.integrated.env.windows": {
+      "PYTHONPATH": "${workspaceFolder}",
+    },
+    //set Python linter (installed using pipx and located using 'which flake8')
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Path": "/Users/patrick.sessford/.local/bin/flake8",
+}
