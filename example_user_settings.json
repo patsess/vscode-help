@@ -22,7 +22,7 @@
   },
   //set Python linter (installed using pipx and located using 'which flake8')
   "python.linting.flake8Enabled": true,
-  "python.linting.flake8Path": "/Users/patrick.sessford/.local/bin/flake8",
+  "python.linting.flake8Path": "/Users/<user-name>/.local/bin/flake8",
   //remove trailing spaces from ends of lines
   "files.trimTrailingWhitespace": true,
   //auto-save files
