@@ -1,0 +1,16 @@
+//example file name: personal_multi_projects.code-workspace
+//file directory: placed within a parent directory of the wanted repos, e.g. '~/personal_projects'
+{
+	"folders": [
+		{
+			"path": "py_projects/repos/<name-of-repo-01>"
+		},
+		{
+			"path": "sh_projects/repos/<name-of-repo-02>"
+		},
+		{
+			"path": "tex_projects/repos/<name-of-repo-03>"
+		}
+	],
+	"settings": {}
+}
